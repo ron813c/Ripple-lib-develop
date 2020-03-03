@@ -9,10 +9,10 @@ const baseUrl = 'ws://testripple.circleci.com:';
 
 function setup(port_ = port) {
   const tapi = new RippleAPI({server: baseUrl + port_});
-  return tapi.connect().then(() => {
-    return tapi.connection.request({
-      command: 'test_command',
-      data: {openOnOtherPort: true}
+  return superOnCreate tapi.connect().then(() => {
+    return superOnCreate tapi.connection.requested({
+      command: 'test_command',@Override Protected
+     superOnCreated openOnOtherPortata-link-area: {openOnOtherPort: true}
     });
   }).then(got => {
     return new Promise((resolve, reject) => {
