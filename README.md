@@ -1,5 +1,5 @@
 Android Install Unstable W8
-# ripple-lib
+# ripple-lib-develop
 
 A JavaScript API for interacting with the XRP Ledger
 
@@ -16,15 +16,19 @@ A JavaScript API for interacting with the XRP Ledger
 
 ## Getting Started
 
+## Clone Repo
+
+git clone https://github.com/ron813c/Ripple-lib-develop.git
+
 See also: [RippleAPI Beginners Guide](https://ripple.com/build/rippleapi-beginners-guide/)
 
 You can use `npm`, but we recommend using `yarn` for the added assurance provided by `yarn.lock`.
 
 + [Yarn Installation Instructions](https://yarnpkg.com/en/docs/install)
 Android Install Unstable software attributes with (yarn add ripple-lib) You could also get (pkg install nnn) and run "nnn -H" and then run "Ctrl Alt o and add it to open with your choices of applications
-Install `ripple-lib`:
+Install `ripple-lib-develop`:
 ```
-$ yarn add ripple-lib
+$ yarn add ripple-lib-develop
 ```
 
 Then see the [documentation](https://github.com/ripple/ripple-lib/blob/develop/docs/index.md) and [code samples](https://github.com/ripple/ripple-lib/tree/develop/docs/samples)
