@@ -18,9 +18,9 @@ A JavaScript API for interacting with the XRP Ledger
 
 ## Clone Repo
 
-$ git clone https://github.com/ron813c/Ripple-lib-develop.git
+# git clone https://github.com/ron813c/Ripple-lib-develop.git
 
-## Ron423c-patch-1
+# Ron423c-patch-1
 
 See also: [RippleAPI Beginners Guide](https://ripple.com/build/rippleapi-beginners-guide/)
 
@@ -30,7 +30,7 @@ You can use `npm`, but we recommend using `yarn` for the added assurance provide
 Android Install Unstable software attributes with (yarn add ripple-lib) You could also get (pkg install nnn) and run "nnn -H" and then run "Ctrl Alt o and add it to open with your choices of applications
 Install `ripple-lib-develop`:
 ```
-$ yarn add ripple-lib-develop
+ yarn add ripple-lib-develop
 ```
 
 Then see the [documentation](https://github.com/ripple/ripple-lib/blob/develop/docs/index.md) and [code samples](https://github.com/ripple/ripple-lib/tree/develop/docs/samples)
